@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full bg-[#05A4C0] text-white z-50 relative ">
+    <header className="w-full bg-[#05A4C0] text-white z-50 relative  ">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-4 relative">
         <h1 className="text-2xl font-light animate-pulse">
           Soluciones Tecnológicas
