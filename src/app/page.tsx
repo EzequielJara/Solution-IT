@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import AOSInit from "./components/AOSInit";
-
+import Footer from "./components/footer";
 
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className="text-center mt-20">
           <Image
-            src="/assets/logoSIT.png"
+            src="/assets/icon.png"
             alt="Logo SIT"
             width={300}
             height={300}
@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* SECCIÓN BLANCA: Servicios */}
-      <section className="w-full bg-white text-black py-16 px-4"  data-aos="fade-up">
+      <section id="servicios" className="w-full bg-white text-black py-16 px-4"  data-aos="fade-up">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-center text-[#018EA7] mb-12">
             Nuestros servicios
@@ -122,7 +122,7 @@ export default function Home() {
         </div>
       </section>
       {/* SECCIÓN NOSOTROS */}
-<section className="w-full bg-white text-[#1B3B59] py-16 px-4">
+<section id="nosotros" className="w-full bg-white text-[#1B3B59] py-16 px-4">
   <div className="max-w-4xl mx-auto text-center">
     <h2 className="text-4xl font-bold text-[#018EA7] mb-6"  data-aos="fade-right">Nosotros</h2>
     <p className="mb-4"  data-aos="fade-up-right">
@@ -180,7 +180,7 @@ export default function Home() {
   </div>
 </section>
  
-      
+      <Footer />
     </div>
     <AOSInit />
      
