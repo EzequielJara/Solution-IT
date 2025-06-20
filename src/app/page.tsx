@@ -3,10 +3,20 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import AOSInit from "./components/AOSInit";
 import Footer from "./components/footer";
-
+import { useEffect } from "react";
 
 export default function Home() {
-  
+    useEffect(() => {
+    const hash = window.location.hash;
+    if (hash) {
+      const target = document.querySelector(hash);
+      if (target) {
+        setTimeout(() => {
+          target.scrollIntoView({ behavior: "smooth" });
+        }, 1000); // pequeño delay para asegurar que el DOM cargue
+      }
+    }
+  }, []);
   return (
     <>
     <div className="w-full">

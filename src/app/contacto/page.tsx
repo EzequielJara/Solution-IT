@@ -50,7 +50,7 @@ export default function ContactoPage() {
 
         <div className="bg-[#105A66] w-full max-w-4xl rounded-2xl p-6 md:p-8 flex flex-col md:flex-row justify-between items-center gap-10 shadow-xl">
 
-          {/* Columna izquierda con botón externo */}
+        
             <div className="flex-1 flex flex-col justify-center items-center md:items-center text-center  md:text-left py-8 md:py-0">
             <h2 className="text-base md:text-xl font-semibold text-white mb-0 md:mb-2  mt-0 md:mt-34 ">
               Dejanos tu solicitud/consulta
@@ -68,7 +68,7 @@ export default function ContactoPage() {
             </button>
           </div>
 
-          {/* Formulario sin botón propio */}
+      
           <form
             onSubmit={handleSubmit}
             id="form-contacto"
