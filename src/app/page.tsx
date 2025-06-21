@@ -30,7 +30,8 @@ export default function Home() {
             src="/assets/icon.png"
             alt="Logo SIT"
             width={300}
-            height={300}
+            height={300} 
+            loading="lazy"
             className="mx-auto drop-shadow-[0_3px_2px_rgba(0,0,0,0.2)]"
           />
           <h2 className="flex justify-center text-4xl md:text-5xl drop-shadow-[0_3px_2px_rgba(0,0,0,0.2)] font-extrabold mt-6 mb-4">
@@ -89,6 +90,7 @@ export default function Home() {
                 alt: "Infraestructura y Tecnología",
                 title: "Infraestructura y Tecnología",
                 desc: "Soporte Técnico, implementación e Administración de servidores",
+                link: "/infraestructura",
               },
               {
                 src: "/assets/op (1).png",
@@ -112,7 +114,7 @@ export default function Home() {
               <a
                 key={i}
                 
-                href="#"
+                href={service.link}
                 className="group bg-white rounded-3xl shadow-[0_3px_2px_rgba(0,0,0,0.2)] p-4 flex flex-col items-center text-center  transition transform hover:scale-110 hover:shadow-xl cursor-pointer"
               >
                 <Image
