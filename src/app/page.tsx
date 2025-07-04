@@ -97,12 +97,14 @@ export default function Home() {
                 alt: "Videovigilancia",
                 title: "Videovigilancia",
                 desc: "Implementación, Modelo BULLET y Modelo DOMO",
+                link: "/videovigilancia",
               },
               {
                 src: "/assets/op (3).png",
                 alt: "Desarrollo de Sistemas",
                 title: "Desarrollo de Sistemas",
                 desc: "Desarrollos a medida, Sistemas Webs y Apps Móviles",
+                link: "/desarrolloSistemas",
               },
               {
                 src: "/assets/op (4).jpg",

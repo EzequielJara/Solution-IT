@@ -9,24 +9,24 @@ export default function VideoVigilanciaPage() {
             <Navbar />
 
             <section className="px-4 py-20 text-center">
-                <h2 className="text-3xl md:text-4xl font-bold mb-12">VIDEOVIGILANCIA</h2>
+                <h2 className="text-3xl md:text-4xl font-bold mb-12">DESARROLLO DE SISTEMAS</h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto cursor-pointer">
                     {[
                         {
-                            img: "/assets/bullet.png",
-                            title: "Modelo BULLET",
-                            desc: "Las cámaras bullet son resistentes y versátiles en su instalación, montables en pared o techo con soportes ajustables para amplios ángulos de visión y dirección. Perfectas para vigilar espacios amplios y exteriores, como patios, estacionamientos y áreas de carga. También útiles para supervisar puertas de entrada y populares para seguridad de negocios y hogares.",
-                        },
-                        {
-                            img: "/assets/infra1.png",
-                            title: "IMPLEMENTACIÓN",
+                            img: "/assets/sist1.png",
+                            title: "DESARROLLO A MEDIDA",
                             desc: "Creamos soluciones tecnológicas a medida, diseñadas específicamente para tu proyecto y utilizando las mejores herramientas del mercado.",
                         },
                         {
-                            img: "/assets/domo.png",
-                            title: "Modelo DOMO",
-                            desc: "Las cámaras bullet son resistentes y versátiles en su instalación, montables en pared o techo con soportes ajustables para amplios ángulos de visión y dirección. Perfectas para vigilar espacios amplios y exteriores, como patios, estacionamientos y áreas de carga. También útiles para supervisar puertas de entrada y populares para seguridad de negocios y hogares.",
+                            img: "/assets/sist2.png",
+                            title: "SISTEMAS WEB",
+                            desc: "Ofrecemos soluciones tecnológicas a medida, desarrolladas por especialistas en programación de plataformas y aplicaciones web que se ajustan perfectamente a las necesidades de tu proyecto.",
+                        },
+                        {
+                            img: "/assets/sist3.png",
+                            title: "MOVILES APPS",
+                            desc: "Diseñamos y programamos herramientas para dispositivos móviles que están al alcance de cualquier persona, con el objetivo de mejorar tu productividad y facilitar tus actividades cotidianas.",
                         },
                     ].map((item, i) => (
                         <div
