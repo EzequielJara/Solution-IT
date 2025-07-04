@@ -111,6 +111,7 @@ export default function Home() {
                 alt: "Consultoría IT",
                 title: "Consultoría IT",
                 desc: "Capacitaciones Corporativas y Consultoría Informática",
+                link: "/consultoria",
               },
             ].map((service, i) => (
               <a
